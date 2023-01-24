@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Kartik Tara</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <a href="https://kartiktara.co">
+          <div class="card__border">
+            <img
+              src="./assets/img/profile-img.jpg"
+              alt="card image"
+              class="card__img"
+            />
+          </div>
+          <h3 class="card__name">Kartik Tara</h3>
+          <h2 class="card__profession">I'm <span class="auto-type"></span></h2>
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+          <script>
+            var typed = new Typed(".auto-type", {
+              strings: [
+                "a Debugger.",
+                "a coder.",
+                "Child prodigy.",
+                "an entusiast.",
+                "natural photographer.",
+              ],
+              typeSpeed: 150,
+              backSpeed: 150,
+              loop: true,
+            });
+          </script>
+        </a>
+
+        <div class="card__social" id="card-social">
+          <div class="card__social-control">
+            <div class="card__social-toggle" id="card-toggle">
+              <i class="ri-add-line"></i>
+            </div>
+            <span class="card__social-text"> My Social Networks</span>
+            <ul class="card__social-list">
+              <a
+                href="https://www.instagram.com/tarakartik24/"
+                target="_blank"
+                class="card__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://github.com/KartikTara1234"
+                target="_blank"
+                class="card__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kartik-tara-2191a9215/"
+                target="_blank"
+                class="card__social-link"
+                ><i class="ri-linkedin-line"></i
+              ></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
